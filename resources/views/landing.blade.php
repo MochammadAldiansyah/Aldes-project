@@ -8,8 +8,8 @@
 
         <div class="container position-relative">
           <div class="row align-items-center py-8">
-            <div class="col-md-5 col-lg-6 order-md-1 text-center text-md-end"><img class="img-fluid" src="assets/img/illustrations/mobile.png" width="350" alt="" /></div>
-            <div class="col-md-7 col-lg-6 text-center text-md-start"><span class="badge bg-light rounded-pill text-dark align-items-center d-flex flex-row-reverse justify-content-end mx-auto mx-md-0 ps-0 w-75 w-sm-50 w-md-75 w-xl-50 mb-3">#1 Editiors Choice App of 2020<img class="img-fluid float-start me-3" src="assets/img/illustrations/arrow-right.png" alt=""/></span>
+            <div class="col-md-5 col-lg-6 order-md-1 text-center text-md-end"><img class="img-fluid" src="{{ asset('assets/img/illustrations/mobile.png') }}" width="350" alt="" /></div>
+            <div class="col-md-7 col-lg-6 text-center text-md-start"><span class="badge bg-light rounded-pill text-dark align-items-center d-flex flex-row-reverse justify-content-end mx-auto mx-md-0 ps-0 w-75 w-sm-50 w-md-75 w-xl-50 mb-3">#1 Editiors Choice App of 2020<img class="img-fluid float-start me-3" src="{{ asset('assets/img/illustrations/arrow-right.png') }}" alt=""/></span>
               <h1 class="mb-4 display-3 fw-bold lh-sm">Best app for your <br class="d-block d-lg-none d-xl-block" />modern lifestyle</h1>
               <p class="mt-3 mb-4 fs-1">Increase productivity with a simple to-do app. app for <br class="d-none d-lg-block" />managing your personal budgets.</p><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">Try for free</a><a class="btn btn-link ps-md-4" href="#" role="button"> Watch demo video</a>
             </div>
@@ -29,11 +29,11 @@
             </div>
           </div>
           <div class="row align-items-center justify-content-center justify-content-lg-around">
-            <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img src="assets/img/gallery/company-1.png" alt="" /></div>
-            <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img src="assets/img/gallery/company-2.png" alt="" /></div>
-            <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img src="assets/img/gallery/company-3.png" alt="" /></div>
-            <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img src="assets/img/gallery/company-4.png" alt="" /></div>
-            <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img src="assets/img/gallery/company-1.png" alt="" /></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img src="{{ asset('assets/img/gallery/company-1.png') }}" alt="" /></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img src="{{ asset('assets/img/gallery/company-2.png') }}" alt="" /></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img src="{{ asset('assets/img/gallery/company-3.png') }}" alt="" /></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img src="{{ asset('assets/img/gallery/company-4.png') }}" alt="" /></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img src="{{ asset('assets/img/gallery/company-1.png') }}" alt="" /></div>
           </div>
         </div>
         <!-- end of .container-->
@@ -46,26 +46,26 @@
       <section class="py-5" id="features">
         <div class="container-lg">
           <div class="row align-items-center">
-            <div class="col-md-5 col-lg-6 order-md-0 text-center text-md-start"><img class="img-fluid" src="assets/img/illustrations/feature-bg.png" width="550" alt="" /></div>
+            <div class="col-md-5 col-lg-6 order-md-0 text-center text-md-start"><img class="img-fluid" src="{{ asset('assets/img/illustrations/feature-bg.png') }}" width="550" alt="" /></div>
             <div class="col-md-7 col-lg-6 px-sm-5 px-md-0">
               <h6 class="fw-bold fs-4 display-3 lh-sm">Awesome apps <br />features</h6>
               <p class="my-4">Increase productivity with a simple to-do app. app for <br class="d-none d-xl-block" />managing your personal budgets.</p>
               <div class="d-flex align-items-center mb-5">
-                <div><img class="img-fluid" src="assets/img/illustrations/fast-performance.png" width="90" alt="" /></div>
+                <div><img class="img-fluid" src="{{ asset('assets/img/illustrations/fast-performance.png') }}" width="90" alt="" /></div>
                 <div class="px-4">
                   <h5 class="fw-bold text-danger">Fast performance</h5>
                   <p>Get your blood tests delivered at <br class="d-none d-xl-block"> home collect a sample from the <br class="d-none d-xl-block"> news your blood tests</p>
                 </div>
               </div>
               <div class="d-flex align-items-center mb-5">
-                <div><img class="img-fluid" src="assets/img/illustrations/prototype.png" width="90" alt="" /></div>
+                <div><img class="img-fluid" src="{{ asset('assets/img/illustrations/prototype.png') }}" width="90" alt="" /></div>
                 <div class="px-4">
                   <h5 class="fw-bold text-primary">Prototyping</h5>
                   <p>Get your blood tests delivered at <br class="d-none d-xl-block"> home collect a sample from the <br class="d-none d-xl-block"> news your blood tests</p>
                 </div>
               </div>
               <div class="d-flex align-items-center mb-5">
-                <div><img class="img-fluid" src="assets/img/illustrations/vector.png" width="90" alt="" /></div>
+                <div><img class="img-fluid" src="{{ asset('assets/img/illustrations/vector.png') }}" width="90" alt="" /></div>
                 <div class="px-4">
                   <h5 class="fw-bold text-success">Vector Editing</h5>
                   <p>Get your blood tests delivered at <br class="d-none d-xl-block"> home collect a sample from the <br class="d-none d-xl-block"> news your blood tests</p>
@@ -92,17 +92,17 @@
           </div>
           <div class="row">
             <div class="col-md-4 col-lg-3 offset-lg-1 mb-4">
-              <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/automatic.png" width="90" alt="" /></div>
+              <div class="py-4"><img class="img-fluid" src="{{ asset('assets/img/illustrations/automatic.png') }}" width="90" alt="" /></div>
               <h5 class="fw-bold text-danger">Fast performance</h5>
               <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
             </div>
             <div class="col-md-4 col-lg-3 offset-lg-1 mb-4">
-              <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/network.png" width="90" alt="" /></div>
+              <div class="py-4"><img class="img-fluid" src="{{ asset('assets/img/illustrations/network.png') }}" width="90" alt="" /></div>
               <h5 class="fw-bold text-primary">Prototyping</h5>
               <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
             </div>
             <div class="col-md-4 col-lg-3 offset-lg-1 mb-4">
-              <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/rewards.png" width="90" alt="" /></div>
+              <div class="py-4"><img class="img-fluid" src="{{ asset('assets/img/illustrations/rewards.png') }}" width="90" alt="" /></div>
               <h5 class="fw-bold text-success">Vector Editing</h5>
               <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
             </div>
@@ -123,7 +123,7 @@
 
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-md-5 order-md-0 text-center text-md-start"><img class="img-fluid mb-4" src="assets/img/illustrations/call-to-action.png" width="550" alt="" /></div>
+            <div class="col-md-5 order-md-0 text-center text-md-start"><img class="img-fluid mb-4" src="{{ asset('assets/img/illustrations/call-to-action.png') }}" width="550" alt="" /></div>
             <div class="col-md-6 text-center text-md-start offset-md-1">
               <h6 class="fw-bold fs-4 display-3 lh-sm">Designed &amp; built by<br />the latest code <br />integration</h6>
               <p class="my-4 pe-xl-5"> The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">Learn more</a>
@@ -152,37 +152,37 @@
           </div>
           <div class="row">
             <div class="col-md-4 mb-6">
-              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/app.png" width="90" alt="" />
+              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="{{ asset('assets/img/illustrations/app.png') }}" width="90" alt="" />
                 <h5 class="fw-bold">App Development</h5>
                 <p class="mb-md-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
               </div>
             </div>
             <div class="col-md-4 mb-6">
-              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/time-award.png" width="90" alt="" />
+              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="{{ asset('assets/img/illustrations/time-award.png') }}" width="90" alt="" />
                 <h5 class="fw-bold">10 Times Award</h5>
                 <p class="mb-md-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
               </div>
             </div>
             <div class="col-md-4 mb-6">
-              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/cloud.png" width="90" alt="" />
+              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="{{ asset('assets/img/illustrations/cloud.png') }}" width="90" alt="" />
                 <h5 class="fw-bold">Cloud Storage</h5>
                 <p class="mb-md-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
               </div>
             </div>
             <div class="col-md-4 mb-6">
-              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/customization.png" width="90" alt="" />
+              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="{{ asset('assets/img/illustrations/customization.png') }}" width="90" alt="" />
                 <h5 class="fw-bold">Customization</h5>
                 <p class="mb-md-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
               </div>
             </div>
             <div class="col-md-4 mb-6">
-              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/ux.png" width="90" alt="" />
+              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="{{ asset('assets/img/illustrations/ux.png') }}" width="90" alt="" />
                 <h5 class="fw-bold">UX Planning</h5>
                 <p class="mb-md-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
               </div>
             </div>
             <div class="col-md-4 mb-6">
-              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/support.png" width="90" alt="" />
+              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="{{ asset('assets/img/illustrations/support.png') }}" width="90" alt="" />
                 <h5 class="fw-bold">Customer Support</h5>
                 <p class="mb-md-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
               </div>
@@ -205,35 +205,35 @@
         <div class="container">
           <div class="container">
             <div class="row align-items-center">
-              <div class="col-md-5 order-md-1 text-center text-md-start"><img class="img-fluid mb-4" src="assets/img/illustrations/ultimate-feature.png" alt="" /></div>
+              <div class="col-md-5 order-md-1 text-center text-md-start"><img class="img-fluid mb-4" src="{{ asset('assets/img/illustrations/ultimate-feature.png') }}" alt="" /></div>
               <div class="col-md-6 text-center text-md-start">
                 <h6 class="fw-bold fs-4 display-3 lh-sm">Ultimate features<br />that we built</h6>
                 <p class="my-4 pe-xl-5"> The rise of mobile devices transforms the way we consume information entirely.</p>
                 <div class="row">
                   <div class="col-md-6">
                     <div class="mb-4">
-                      <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/app.png" width="90" alt="" /></div>
+                      <div class="py-4"><img class="img-fluid" src="{{ asset('assets/img/illustrations/app.png') }}" width="90" alt="" /></div>
                       <h5 class="fw-bold text-undefined">App Development</h5>
                       <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="mb-4">
-                      <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/ux.png" width="90" alt="" /></div>
+                      <div class="py-4"><img class="img-fluid" src="{{ asset('assets/img/illustrations/ux.png') }}" width="90" alt="" /></div>
                       <h5 class="fw-bold text-undefined">UX Planning</h5>
                       <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="mb-4">
-                      <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/cloud.png" width="90" alt="" /></div>
+                      <div class="py-4"><img class="img-fluid" src="{{ asset('assets/img/illustrations/cloud.png') }}" width="90" alt="" /></div>
                       <h5 class="fw-bold text-undefined">Cloud Storage</h5>
                       <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="mb-4">
-                      <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/support.png" width="90" alt="" /></div>
+                      <div class="py-4"><img class="img-fluid" src="{{ asset('assets/img/illustrations/support.png') }}" width="90" alt="" /></div>
                       <h5 class="fw-bold text-undefined">Customer support</h5>
                       <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
                     </div>
@@ -322,7 +322,7 @@
       <section class="py-8" id="testimonial">
         <div class="container-lg">
           <div class="row flex-center">
-            <div class="col-sm-10 col-md-5 col-lg-5 order-md-0 text-center text-md-start"><img class="img-fluid mb-4" src="assets/img/illustrations/testimonial.png" alt="" /></div>
+            <div class="col-sm-10 col-md-5 col-lg-5 order-md-0 text-center text-md-start"><img class="img-fluid mb-4" src="{{ asset('assets/img/illustrations/testimonial.png') }}" alt="" /></div>
             <div class="col-sm-10 col-md-6 col-lg-6 text-center text-md-start offset-md-1">
               <h6 class="fw-bold fs-4 display-3 lh-sm"> Meet Client Satisfaction <br />by using product</h6>
               <p class="my-4 pe-xl-5"> The rise of mobile devices transforms the way we consume.Elevant channels such as Facebook.</p>
@@ -499,11 +499,11 @@
         <hr />
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-md-5 col-lg-7 order-md-1 text-center text-md-start z-index-2 cta-image"><img class="img-fluid mb-4 mb-md-0" src="assets/img/illustrations/cta.png" width="850" alt="" /></div>
+            <div class="col-md-5 col-lg-7 order-md-1 text-center text-md-start z-index-2 cta-image"><img class="img-fluid mb-4 mb-md-0" src="{{ asset('assets/img/illustrations/cta.png') }}" width="850" alt="" /></div>
             <div class="col-md-7 col-lg-5 text-center text-md-start">
               <h1 class="display-3 fw-bold lh-sm">Download our App now</h1>
               <p class="my-4"> The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
-              <div class="d-flex justify-content-center d-md-inline-block"><a class="pe-2 pe-sm-3 pe-md-4" href="!#"><img src="assets/img/illustrations/google-play.png" width="160" alt="" /></a><a href="!#"><img src="assets/img/illustrations/app-store.png" width="160" alt="" /></a></div>
+              <div class="d-flex justify-content-center d-md-inline-block"><a class="pe-2 pe-sm-3 pe-md-4" href="!#"><img src="{{ asset('assets/img/illustrations/google-play.png') }}" width="160" alt="" /></a><a href="!#"><img src="{{ asset('assets/img/illustrations/app-store.png') }}" width="160" alt="" /></a></div>
             </div>
           </div>
         </div>

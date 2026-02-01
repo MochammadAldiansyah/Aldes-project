@@ -13,9 +13,9 @@
               <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium" href="#testimonial">Testimonial</a></li>
               <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium" href="#faq">FAQ</a></li>
             </ul>
-            <form class="ps-lg-5">
-              <button class="btn btn-lg btn-primary rounded-pill order-0" type="submit">Try for free</button>
-            </form>
+            <span class="ps-lg-5">
+              <a class="btn btn-lg btn-primary rounded-pill order-0" href="">Try for free</a>
+            </span>
         </div>
     </div>
 </nav>
