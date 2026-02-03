@@ -1,6 +1,6 @@
    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" data-navbar-on-scroll="data-navbar-on-scroll">
 
-       <div class="container"><a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="index.html">
+       <div class="container"><a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="{{ route('landing') }}">
            <div class="text-warning">App</div>
            <div class="text-1000">Lab</div>
         </a>
@@ -14,7 +14,7 @@
               <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium" href="#faq">FAQ</a></li>
             </ul>
             <span class="ps-lg-5">
-              <a class="btn btn-lg btn-primary rounded-pill order-0" href="">Try for free</a>
+              <a class="btn btn-lg btn-primary rounded-pill order-0" href="{{ route('login') }}">Try for free</a>
             </span>
         </div>
     </div>
