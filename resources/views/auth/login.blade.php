@@ -15,7 +15,7 @@
     </div>
 
     <div class="form-header">
-        <h2>Selamat Datang Kembali! 👋</h2>
+        <h2>Selamat Datang Kembali! </h2>
         <p>Masuk ke akun Anda untuk melanjutkan</p>
     </div>
 

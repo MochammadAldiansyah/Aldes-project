@@ -14,7 +14,7 @@
 </div>
 
 <div class="form-header">
-    <h2>Buat Akun Baru 🚀</h2>
+    <h2>Buat Akun Baru</h2>
     <p>Bergabunglah dengan ribuan pengguna lainnya</p>
 </div>
 

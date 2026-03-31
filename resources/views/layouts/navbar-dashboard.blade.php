@@ -1,14 +1,14 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" data-navbar-on-scroll="data-navbar-on-scroll">
     <div class="container">
-        <a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="{{ route('dashboard') }}">
+        <a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="{{ route('landing') }}">
             <div class="text-warning">App</div>
             <div class="text-1000">Lab</div>
         </a>
-        
+
         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDashboard" aria-controls="navbarDashboard" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        
+
         <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarDashboard">
             <ul class="navbar-nav ms-auto pt-2 pt-lg-0 align-items-lg-center">
                 <li class="nav-item">
@@ -22,7 +22,7 @@
                         Dashboard
                     </a>
                 </li>
-                
+
                 <!-- User Dropdown -->
                 <li class="nav-item dropdown ms-lg-3">
                     <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -71,40 +71,4 @@
     </div>
 </nav>
 
-<style>
-    .avatar-circle {
-        width: 36px;
-        height: 36px;
-        background: linear-gradient(135deg, #2500F9 0%, #5b38f5 100%);
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        font-weight: 600;
-        font-size: 0.9rem;
-        text-transform: uppercase;
-    }
-    
-    .dropdown-header {
-        padding: 0.5rem 1rem;
-    }
-    
-    .dropdown-item {
-        display: flex;
-        align-items: center;
-        padding: 0.5rem 1rem;
-    }
-    
-    .dropdown-item:hover {
-        background-color: #f8f9fa;
-    }
-    
-    .dropdown-item.text-danger:hover {
-        background-color: rgba(245, 87, 103, 0.1);
-    }
-    
-    #userDropdown::after {
-        margin-left: 0.5rem;
-    }
-</style>
+
